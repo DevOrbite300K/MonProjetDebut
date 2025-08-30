@@ -24,7 +24,7 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Produit extends Model
 {
-	protected $table = 'produit';
+	protected $table = 'produits';
 
 	protected $casts = [
 		'prix_vente' => 'int'
