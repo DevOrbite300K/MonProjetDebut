@@ -11,10 +11,10 @@ class Produit2Controller extends Controller
     public function __construct()
     {
         $this->middleware('auth');
-        $this->middleware('permission:PeutVoir', ['only' => ['index']]);
-        $this->middleware('permission:PeutAjouter', ['only' => ['create', 'store']]);
-        $this->middleware('permission:PeutModifier', ['only' => ['edit', 'update']]);
-        $this->middleware('permission:PeutSupprimer', ['only' => ['destroy']]);
+        // $this->middleware('permission:PeutVoir', ['only' => ['index']]);
+        // $this->middleware('permission:PeutAjouter', ['only' => ['create', 'store']]);
+        // $this->middleware('permission:PeutModifier', ['only' => ['edit', 'update']]);
+        // $this->middleware('permission:PeutSupprimer', ['only' => ['destroy']]);
     }
     /**
      * Display a listing of the resource.
